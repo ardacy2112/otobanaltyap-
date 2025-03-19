@@ -1,0 +1,15 @@
+
+{
+    "kufurler": [
+      "amk", "sik", "orospu", "piç", 
+      "göt", "aq", "siktir", "yarrak"
+    ],
+    "mutehiscem": [
+      "porno", "onlyfans", "xxx", "nsfw"
+    ],
+    "regexler": [
+      "\\b(a+[a-z0-9]*k+)\\b", 
+      "\\b(q+[a-z0-9]*w+)\\b"
+    ]
+  }
+  
