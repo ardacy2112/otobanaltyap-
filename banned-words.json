@@ -1,15 +1,17 @@
-
 {
-    "kufurler": [
-      "amk", "sik", "orospu", "piç", 
-      "göt", "aq", "siktir", "yarrak"
-    ],
-    "mutehiscem": [
-      "porno", "onlyfans", "xxx", "nsfw"
-    ],
-    "regexler": [
-      "\\b(a+[a-z0-9]*k+)\\b", 
-      "\\b(q+[a-z0-9]*w+)\\b"
-    ]
-  }
-  
+  "kufurler": [
+    "amk", "sik", "orospu", "piç", 
+    "göt", "aq", "siktir", "yarrak"
+  ],
+  "mutehiscem": [
+    "porno", "onlyfans", "xxx", "nsfw"
+  ],
+  "regexler": [
+    "(?i)\\b(a+[0-9ğüşıöç]*k+)\\b",
+    "(?i)\\b(q+[0-9ğüşıöç]*w+)\\b",
+    "(?i)(oro[şs]pu|piç|şerefsiz)",
+    "[!@#$%^&*()_+=]*(a\\W*m\\W*k)[!@#$%^&*()_+=]*",
+    "(.)\\1{4,}",
+    "(?i)\\b([a-zğüşıöç]{2,3}[0-9]{2,3})\\b"
+  ]
+}
